@@ -1,0 +1,9 @@
+[Unit]
+Description=fuck
+
+[Service]
+ExecStart=/root/lab3/start_capture.sh
+Type=oneshot
+
+[Install]
+WantedBy=multi-user.target
